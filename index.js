@@ -5,8 +5,8 @@ var randomNumber2 =  Math.floor(Math.random() * 6) + 1;
 
 
 
-var image1 = "images/dice"+randomNumber1+".png";
-var image2 = "images/dice"+randomNumber2+".png";
+var image1 = "dice"+randomNumber1+".png";
+var image2 = "dice"+randomNumber2+".png";
 document.querySelector(".img1").setAttribute("src" ,  image1);
 document.querySelector(".img2").setAttribute("src" , image2);
 
